@@ -1,0 +1,214 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+
+
+.a{
+    width:100%;
+    height:75px;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+    display:flex;
+    background-color: aqua;
+}
+.cont{
+    width: 100%;
+    display: block;
+}
+.b{
+    width:100%;
+    height:150px;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+    display:flex;
+    background-color: rgb(68, 0, 255);
+}
+.cont2{
+    width: 100%;
+    display: block;
+}
+.c{
+    width:100%;
+    height:125px;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+    display:flex;
+    background-color: rgb(204, 0, 255);
+}
+.d{
+    width:100%;
+    height:125px;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+    display:flex;
+    background-color: rgb(255, 0, 106);
+}
+.efgh{
+    width: 100%;
+    display: block;
+}
+.ef,.gh{
+    width: 100%;
+    display: flex;
+}
+.e{
+    width:50%;
+    height:250px;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+    display:flex;
+    background-color: rgb(119, 0, 255);
+}
+.f{
+    width:50%;
+    height:250px;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+    display:flex;
+    background-color: rgb(255, 102, 0);
+}
+.g{
+    width:50%;
+    height:250px;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+    display:flex;
+    background-color: rgb(22, 97, 35);
+}
+.h{
+    width:50%;
+    height:250px;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+    display:flex;
+    background-color: rgb(62, 71, 11);
+}
+.i{
+    width:100%;
+    height:80px;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+    display:flex;
+    background-color: rgb(176, 189, 105);
+}
+
+@media (min-width:  768px){
+    .a{
+        width:100%;
+        height:100px;
+        text-align:center;
+        justify-content:center;
+        align-items:center;
+        display:flex;
+        background-color: aqua;
+    }
+    .cont{
+        width: 100%;
+        background: red;
+        display: flex;
+    }
+    .cont .b{
+        width: 20.8%;
+        height: 600px;
+        text-align:center;
+        justify-content:center;
+        align-items:center;
+        display:flex;
+        background-color:blue;
+    
+    }
+    .cont .cont2{
+        width: 80%;
+    }
+    .cont2 .cd{
+        width: 100%;
+        display: flex;
+    }
+    .c{
+        width: 50%;
+        height: 200px;
+        text-align:center;
+        justify-content:center;
+        align-items:center;
+        display:flex;
+        background-color:rgb(9, 255, 0);
+    }
+    .d{
+    
+        width: 50%;
+        height: 200px;
+        text-align:center;
+        justify-content:center;
+        align-items:center;
+        display:flex;
+        background-color:rgb(255, 136, 0);
+    }
+    
+    .efgh{
+        width: 100%;
+        background-color:rgb(9, 255, 0);
+        display: flex;
+    }
+    .ef,.gh{
+        width: 100%;
+        display: flex;
+    }
+    .e{
+        width: 50%;
+        height: 250px;
+        text-align:center;
+        justify-content:center;
+        align-items:center;
+        display:flex;
+        background-color:rgb(60, 90, 11);
+    }
+    .f{
+        width: 50%;
+        height: 250px;
+        text-align:center;
+        justify-content:center;
+        align-items:center;
+        display:flex;
+        background-color:rgb(41, 34, 85);
+    }
+    .g{
+        width: 50%;
+        height: 250px;
+        text-align:center;
+        justify-content:center;
+        align-items:center;
+        display:flex;
+        background-color:rgb(76, 202, 192);
+    }
+    .h{
+        width: 50%;
+        height: 250px;
+        text-align:center;
+        justify-content:center;
+        align-items:center;
+        display:flex;
+        background-color:rgb(130, 160, 83);
+    }
+    
+    .i{
+        width: 100%;
+        height: 150px;
+        text-align:center;
+        justify-content:center;
+        align-items:center;
+        display:flex;
+        background-color:rgb(138, 52, 71);
+    }
+}
